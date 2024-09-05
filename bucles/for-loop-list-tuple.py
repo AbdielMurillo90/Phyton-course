@@ -41,8 +41,17 @@ for num in enumerate(animales):
     print(f"este bucle va a mostrar el indice {indice} en la lista animales, por lo cual es: {valor} ")
     #print(f"el indice es: {Indice} y el valor es: {valor}")
 
-#forma elegante desempaquetando
+#forma elegante desempaquetando (la verdadera forma) enumerate hace dos cosas: contar la cantidad de elementos (como si fuera len) para iterar, lo cual tambien hace la funcion como si fuera un indice, y ademas muestra el valor de la variable
+#en este caso creamos dos variables para el bucle for, en donde el primero almacena el indice y el segundo almacena el valor de la variable que queremos (la que estara dentro de enumerate)
+#luego debemos indicarlo dentro del bucle for
 for numero,animal in enumerate(animales):
     indice = numero
     valor = animal
     print(f"este bucle va a mostrar el indice {indice} en la lista animales, por lo cual es: {valor} ")
+
+
+#usando for/else:
+for numero in numeros:
+    print(f"ejecutnado el ultimo bucle, valor actual:{numeros}")
+else: 
+    print("el bucle ha finalizado")
