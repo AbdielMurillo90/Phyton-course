@@ -1,4 +1,4 @@
-frutas = ["guineo","sandia","pera","granada","uva","cereza","fresa","naranja","limon"]
+frutas = ["tamarindojaja","sandia","pera","granada","uva","cereza","fresa","naranja","limon"]
 frutas_llevar = []
 precio = [7,4,3.5,1.32,4.21,3.5,4,6.12]
 frutas_precios = dict(zip(frutas,precio)) #zip lo que hace es: oma dos (o más) iterables (como listas) y los combina en pares. Cada par contiene un elemento de cada iterable en la misma posición.
