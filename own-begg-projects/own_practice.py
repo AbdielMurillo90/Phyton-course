@@ -1,4 +1,3 @@
-frutas = ["banana","sandia","pera","granada","aguacate","cereza","fresa","naranja","mandarina"]
 frutas = ["guineo","sandia","pera","granada","uva","cereza","fresa","naranja","limon"]
 frutas_llevar = []
 precio = [7,4,3.5,1.32,4.21,3.5,4,6.12]
